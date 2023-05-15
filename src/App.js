@@ -13,7 +13,7 @@ class App extends Component {
         <AmplifySignOut />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
+          {/* <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <a
@@ -23,8 +23,10 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React
-          </a>
+          </a> */}
         </header>
+        <h1>Sample App</h1>
+        <p>これは、サンプルで作成されたアプリです。</p>
       </div>
     );
   }
